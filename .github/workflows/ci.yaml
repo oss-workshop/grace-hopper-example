@@ -1,0 +1,32 @@
+name: CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - uses: actions/setup-go@v2
+      with:
+        go-version: 1.14
+
+    - name: Test
+      run: make test
+
+    - name: Build
+      run: docker build -t docker.pkg.github.com/oss-workshop/grace-hopper-example/grace-hopper .
+
+    - name: Publish
+      run: |
+        docker login docker.pkg.github.com --username ci --password $PASSWORD
+        docker push docker.pkg.github.com/oss-workshop/grace-hopper-example/grace-hopper
+      env:
+        PASSWORD: ${{ secrets.GITHUB_TOKEN }}
+      if: ${{ github.event_name == 'push' }}
