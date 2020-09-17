@@ -5,6 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
+    - name: Test
+      run: go test -failfast -covermode=count -coverprofile=coverage.out ./...  
     - name: Upload coverage to Codecov 
       uses: codecov/codecov-action@v1
       with:
