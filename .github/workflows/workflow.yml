@@ -1,0 +1,7 @@
+name: Code Coverage Workflow
+on: [push]
+jobs:
+  run:
+    steps:
+    - uses: actions/checkout@master
+    - uses: codecov/codecov-action@v1
