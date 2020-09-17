@@ -2,6 +2,7 @@ name: Code Coverage Workflow
 on: [push]
 jobs:
   run:
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
     - uses: codecov/codecov-action@v1
