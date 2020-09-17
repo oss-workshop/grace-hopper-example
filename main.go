@@ -5,13 +5,9 @@ import "fmt"
 const name = "Grace Hopper"
 
 func main() {
-	greetMessage := hello(name)
-	fmt.Println(greetMessage)
+	fmt.Println(message())
 }
 
-func hello(s string) string {
-	if s == "" {
-		return fmt.Sprintf("Open Source ♡ %s!", name)
-	}
-	return fmt.Sprintf("Open Source ♡ %s!", s)
+func message() string {
+	return fmt.Sprintf("Open Source ♡ %s!", name)
 }

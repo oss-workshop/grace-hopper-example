@@ -2,10 +2,10 @@ package main
 
 import "testing"
 
-func TestHello(t *testing.T) {
-	emptyResult := hello("")
+func TestMessage(t *testing.T) {
+	result := message()
 	expected := "Open Source ♡ Grace Hopper!"
-	if emptyResult != expected {
-		t.Errorf("hello(\"\") failed, expected %v, got %v", expected, emptyResult)
+	if result != expected {
+		t.Errorf("message() failed, expected %v, got %v", expected, result)
 	}
 }
