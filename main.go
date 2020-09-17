@@ -1,16 +1,17 @@
 package main
 
-import (
-	"fmt"
-	"log"
-	"net/http"
-)
+import "fmt"
 
 const name = "Grace Hopper"
 
 func main() {
-	http.HandleFunc("/", func(writer http.ResponseWriter, request *http.Request) {
-		fmt.Fprintf(writer, "Open Source ♡ %s!", name)
-	})
-	log.Fatal(http.ListenAndServe(":8080", nil))
+	greetMessage := hello(name)
+	fmt.Println(greetMessage)
+}
+
+func hello(s string) string {
+	if s == "" {
+		return fmt.Sprintf("Open Source ♡ %s!", name)
+	}
+	return fmt.Sprintf("Open Source ♡ %s!", s)
 }
