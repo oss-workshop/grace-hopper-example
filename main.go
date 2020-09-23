@@ -5,7 +5,7 @@ import "fmt"
 const name = "Grace Hopper"
 
 func main() {
-	fmt.Println(customMessage("This is my custom message"))
+	fmt.Println(customMessage("This is a custom message"))
 }
 
 func message() string {
