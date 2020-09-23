@@ -8,5 +8,5 @@ Review our [Code of Conduct policy](https://github.com/oss-workshop/grace-hopper
 * Create an issue addressing the problem, is one does not exist already. Please include as much relevant information as possible.
 
 ## Pull Requests
-* PRs for new features must include unit and/or end-to-end tests to be merged in.
-* PRs must have at least 50% Code Coverage to be merged in.
+* PRs for new features must include unit and/or end-to-end tests.
+* PRs must have at least 50% Code Coverage for approval.
