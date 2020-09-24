@@ -12,6 +12,6 @@ func message() string {
 	return fmt.Sprintf("Open Source ♡ %s!", name)
 }
 
-func calcSquare(n int) int {
+func squareN(n int) int {
 	return n*n
 }

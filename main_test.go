@@ -10,8 +10,8 @@ func TestMessage(t *testing.T) {
 	}
 }
 
-func TestCalcSquare(t *testing.T) {
-	result := calcSquare(1)
+func TestSquareN(t *testing.T) {
+	result := squareN(1)
 	expected := 1
 	if result != expected {
 		t.Errorf("calcSquare(1) failed, expected %v, got %v", expected, result)
