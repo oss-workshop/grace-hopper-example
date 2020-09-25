@@ -3,10 +3,9 @@
 [Presentation Slides](https://docs.google.com/presentation/d/1ZCUBTZErugAegwAl-1VWpSKtqah9sfOjXpZnOvmHkuk/edit?usp=sharing)
 
 ## Initial Set-Up/Bootstrapping:
-- [ ] README
-- [ ] CLA or DCO
-    - [DCO](https://github.com/organizations/oss-workshop/settings/installations/11858404)
-      - https://opensource.com/article/18/3/cla-vs-dco-whats-difference
+- [ ] ReadMe
+    - Provides information/instructions about project
+- [ ] [CLA or DCO](https://opensource.com/article/18/3/cla-vs-dco-whats-difference)
 - [ ] [Owners](https://github.com/oss-workshop/grace-hopper-example/blob/master/OWNERS)
     - Roles that certain users have in repository
 - [ ] [Contributing](https://github.com/oss-workshop/grace-hopper-example/blob/master/docs/CONTRIBUTING.md)
@@ -31,6 +30,8 @@
         - Enforces code formatting
     - Semantic Pull Requests
         - Easily filter commits for CHANGELOG.md
+    - DCO Bot
+        - Enforce that DCO is signed
 - [ ] Documentation Structure
  
 # Maintenance
