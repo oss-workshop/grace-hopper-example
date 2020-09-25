@@ -19,6 +19,7 @@
     - [ ] [License](https://choosealicense.com/)
     - [ ] Documentation Structure
 - [ ] [CLA or DCO](https://opensource.com/article/18/3/cla-vs-dco-whats-difference)
+    - Contributors must sign agreement allowing project to use their contributions
 - [ ] [Docker](https://github.com/oss-workshop/grace-hopper-example/commit/40d1e13390f9dc9c0a8e29a7c207a2af4a19cc99)
     - Github Container Registry
     - Github action to create image for each release
