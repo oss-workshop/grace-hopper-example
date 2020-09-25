@@ -3,23 +3,25 @@
 [Presentation Slides](https://docs.google.com/presentation/d/1ZCUBTZErugAegwAl-1VWpSKtqah9sfOjXpZnOvmHkuk/edit?usp=sharing)
 
 ## Initial Set-Up/Bootstrapping:
-- [ ] ReadMe
-    - Provides information/instructions about project
+- [ ] Documentation
+    - [ ] ReadMe
+        - Provides information/instructions about project
+    - [ ] [Owners](https://github.com/oss-workshop/grace-hopper-example/blob/master/OWNERS)
+        - Roles that certain users have in repository
+    - [ ] [Contributing](https://github.com/oss-workshop/grace-hopper-example/blob/master/docs/CONTRIBUTING.md)
+        - Guidelines for contributions
+    - [ ] [Changelog](https://github.com/oss-workshop/grace-hopper-example/blob/master/CHANGELOG.md)
+        - Record of important changes made to project
+    - [ ] [RoadMap](https://github.com/oss-workshop/grace-hopper-example/blob/master/docs/ROADMAP.md)
+        - Give users an idea of where project is going
+    - [ ] [Security](https://github.com/oss-workshop/grace-hopper-example/blob/master/SECURITY.md)
+        - Allow users to report security issues without compromising project
+    - [ ] [License](https://choosealicense.com/)
+    - [ ] Documentation Structure
 - [ ] [CLA or DCO](https://opensource.com/article/18/3/cla-vs-dco-whats-difference)
-- [ ] [Owners](https://github.com/oss-workshop/grace-hopper-example/blob/master/OWNERS)
-    - Roles that certain users have in repository
-- [ ] [Contributing](https://github.com/oss-workshop/grace-hopper-example/blob/master/docs/CONTRIBUTING.md)
-    - Guidelines for contributions
-- [ ] [Changelog](https://github.com/oss-workshop/grace-hopper-example/blob/master/CHANGELOG.md)
-    - Record of important changes made to project
 - [ ] [Docker](https://github.com/oss-workshop/grace-hopper-example/commit/40d1e13390f9dc9c0a8e29a7c207a2af4a19cc99)
     - Github Container Registry
     - Github action to create image for each release
-- [ ] [RoadMap](https://github.com/oss-workshop/grace-hopper-example/blob/master/docs/ROADMAP.md)
-    - Give users an idea of where project is going
-- [ ] [Security](https://github.com/oss-workshop/grace-hopper-example/blob/master/SECURITY.md)
-    - Allow users to report security issues without compromising project
-- [ ] [License](https://choosealicense.com/)
 - [ ] [Code Coverage](https://github.com/oss-workshop/grace-hopper-example/actions?query=workflow%3A%22Code+Coverage+Workflow%22)
     - Determines number of lines in code validated by existing tests
     - Used to enforce testing protocols
@@ -32,7 +34,6 @@
         - Easily filter commits for CHANGELOG.md
     - DCO Bot
         - Enforce that DCO is signed
-- [ ] Documentation Structure
  
 # Maintenance
 ### Daily Stand-Up Meeting:
