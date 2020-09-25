@@ -1,31 +1,24 @@
 # Grace Hopper Hands-On Activity
 
 ## Mock Stand-up Process
-This hands-on activity is based off the daily stand-up process.
-Please follow along with us and enter your answers into Kahoot!
+This hands-on activity is based on the daily stand-up process.
 
-### Issues
-1. Sort the existing issues by the number of "thumbs-up" symbols. Please tell us in Kahoot! when you are done.
-2. Open the first issue:
-    - Is this issue relevant to our project? (hint: refer to RoadMap)
-    - What labels would you choose for this issue?
-    - What comment(s) would you leave on this PR, if any?
-3. Open the second issue:
-   - Is this issue relevant to our project? (hint: refer to RoadMap)
-   - What labels would you choose for this issue?
-   - What comment(s) would you leave on this PR, if any?
+For the exercises, please enter your answers in Slido. Do NOT modify this Github repository directly!
 
-### Pull Requests (5 min)
-We are going to look through each PR and decide whether it should be merged into the project.
-Some need more work, some may be rejected or out of scope
-1. Open the first PR
-- Is it ready to be merged? If not, why?
-  - [ ] Tests
-  - [ ] DOC
-  - [ ] Out of scope for project
-  
-2. Open the second PR:
-- Is it ready to be merged? If not, why?
-    - [ ] Tests
-    - [ ] DOC
-    - [ ] Out of scope for project
+### Exercise #1
+We are going to triage the existing issues. We use "labels" to classify issues.
+
+#### [Issue #1](https://github.com/oss-workshop/grace-hopper-example/issues/29)
+- What labels would you choose for this issue? Please enter your answers in Slido.
+
+#### [Issue #2](https://github.com/oss-workshop/grace-hopper-example/issues/23)
+- What labels would you choose for this issue? Please enter your answers in Slido.
+
+### Exercise #2
+We are going to look through the existing Pull Requests.
+
+#### [Pull Request #1](https://github.com/oss-workshop/grace-hopper-example/pull/27)
+- Why is this PR not ready to merged? Please enter your answers in Slido.
+
+#### [Pull Request #2](https://github.com/oss-workshop/grace-hopper-example/pull/26)
+- Why is this PR not ready to merged? Please enter your answers in Slido.

@@ -1,33 +1,38 @@
 # Grace Hopper OS Example
 
-This repository serves as an example of an Open Source repo. The code is a simple 
+[Presentation Slides](https://docs.google.com/presentation/d/1ZCUBTZErugAegwAl-1VWpSKtqah9sfOjXpZnOvmHkuk/edit?usp=sharing)
 
-Slides: https://docs.google.com/presentation/d/1ZCUBTZErugAegwAl-1VWpSKtqah9sfOjXpZnOvmHkuk/edit?usp=sharing
-
-Link to PR that enabled that feature
-
-## Initial set-up/Bootstrapping:
-- [ ] README.md
-- [ ] CLA or DCO bot *(mentioned in demo)
-      - [DCO](https://github.com/organizations/oss-workshop/settings/installations/11858404)
+## Initial Set-Up/Bootstrapping:
+- [ ] README
+- [ ] CLA or DCO
+    - [DCO](https://github.com/organizations/oss-workshop/settings/installations/11858404)
       - https://opensource.com/article/18/3/cla-vs-dco-whats-difference
+- [ ] [Owners](https://github.com/oss-workshop/grace-hopper-example/blob/master/OWNERS)
+    - Roles that certain users have in repository
+- [ ] [Contributing](https://github.com/oss-workshop/grace-hopper-example/blob/master/docs/CONTRIBUTING.md)
+    - Guidelines for contributions
+- [ ] [Changelog](https://github.com/oss-workshop/grace-hopper-example/blob/master/CHANGELOG.md)
+    - Record of important changes made to project
 - [ ] [Docker](https://github.com/oss-workshop/grace-hopper-example/commit/40d1e13390f9dc9c0a8e29a7c207a2af4a19cc99)
     - Github Container Registry
     - Github action to create image for each release
-- [ ] Road Map
+- [ ] [RoadMap](https://github.com/oss-workshop/grace-hopper-example/blob/master/docs/ROADMAP.md)
     - Give users an idea of where project is going
 - [ ] [Security](https://github.com/oss-workshop/grace-hopper-example/blob/master/SECURITY.md)
     - Allow users to report security issues without compromising project
-- [Stale Bot](https://github.com/organizations/oss-workshop/settings/installations/11858383)
-    - Deal with old/abandoned PRs
-- Linter *(mentioned in demo)
-- [Semantic Pull Requests](https://github.com/organizations/oss-workshop/settings/installations/11858319)
-    - Easily filter commits for CHANGELOG.md
-- Documentation structure (mkdocs/markdown)
-- Code coverage tracker    
+- [ ] [License](https://choosealicense.com/)
+- [ ] [Code Coverage](https://github.com/oss-workshop/grace-hopper-example/actions?query=workflow%3A%22Code+Coverage+Workflow%22)
+    - Determines number of lines in code validated by existing tests
+    - Used to enforce testing protocols
+- [ ] [Bots](https://github.com/organizations/oss-workshop/settings/installations)
+    - Stale Bot
+         - Deal with old/abandoned PRs
+    - Linter
+        - Enforces code formatting
+    - Semantic Pull Requests
+        - Easily filter commits for CHANGELOG.md
+- [ ] Documentation Structure
  
-For an OS repo, you need to set up security, create a roadmap for users to follow, etc.
-
 # Maintenance
 ### Daily Stand-Up Meeting:
 - Necessary to regularly review new issues/PRs
@@ -43,4 +48,3 @@ For an OS repo, you need to set up security, create a roadmap for users to follo
 ### Contribution
 - [ ] Require certain % code coverage from contributors
 - [ ] Must provide unit/e2e tests
-   
