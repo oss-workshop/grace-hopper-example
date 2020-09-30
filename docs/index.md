@@ -18,8 +18,7 @@
 - [Security](https://github.com/oss-workshop/grace-hopper-example/blob/master/SECURITY.md)
     - Allow users to report security issues without compromising project
 - [License](https://choosealicense.com/)
-- [MkDocs/Markdown](https://www.mkdocs.org/#adding-pages)
-    - Static site generator for documentation
+- Documentation Structure
 
 ###[CLA or DCO](https://opensource.com/article/18/3/cla-vs-dco-whats-difference)
 - Contributors must sign agreement allowing project to use their contributions

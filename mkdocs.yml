@@ -1,0 +1,13 @@
+site_name: Grace Hopper OS Example
+repo_url: https://github.com/oss-workshop/grace-hopper-example
+theme:
+  font:
+    text: Work Sans
+  name: material
+  palette:
+    primary: deep purple
+nav:
+  - Overview: index.md
+  - Contribution Guide: CONTRIBUTING.md
+  - Roadmap: ROADMAP.md
+  - Hands On Activity: HANDSON.md
