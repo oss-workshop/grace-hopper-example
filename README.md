@@ -5,7 +5,7 @@
 ## Initial Set-Up/Bootstrapping:
 
 ### Documentation
-- Readme
+- [Readme](https://github.com/oss-workshop/grace-hopper-example/blob/master/README.md)
     - Provides information/instructions about project
 - [Owners](https://github.com/oss-workshop/grace-hopper-example/blob/master/OWNERS)
     - Roles that certain users have in repository
