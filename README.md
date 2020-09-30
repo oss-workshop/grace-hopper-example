@@ -53,7 +53,7 @@
     - Review owned issues, maybe reassign or disown.
     - Review open PRs, so we agree that it should be done or do not forget about them.
 
-### Testing
+### Test Framework
 - Create robust unit/e2e tests
     - Avoid bugs
     - Ensure that contributors' changes meet standards (pass your existing test framework)
