@@ -12,13 +12,13 @@ For the exercises, please enter your answers [here in Slido](https://app.sli.do/
 ### Exercise #1
 We are going to triage the existing issues. We use "labels" to classify issues. [This page](https://github.com/oss-workshop/grace-hopper-example/issues/labels) describes each label in more detail.
 
-#### [Issue #1](https://github.com/oss-workshop/grace-hopper-example/issues/32)
+#### [Issue #1](https://github.com/oss-workshop/grace-hopper-example/issues/36)
 - What labels would you choose for this issue? Please enter your answers in Slido.
 
-#### [Issue #2](https://github.com/oss-workshop/grace-hopper-example/issues/29)
+#### [Issue #2](https://github.com/oss-workshop/grace-hopper-example/issues/32)
 - What labels would you choose for this issue? Please enter your answers in Slido.
 
-#### [Issue #3](https://github.com/oss-workshop/grace-hopper-example/issues/23)
+#### [Issue #3](https://github.com/oss-workshop/grace-hopper-example/issues/29)
 - What labels would you choose for this issue? Please enter your answers in Slido.
 
 ### Exercise #2
