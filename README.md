@@ -21,8 +21,9 @@
 - [MkDocs/Markdown](https://www.mkdocs.org/#adding-pages)
     - Static site generator for documentation
 
-### [CLA or DCO](https://opensource.com/article/18/3/cla-vs-dco-whats-difference)
-- Contributors must sign agreement allowing project to use their contributions
+### Continuous Integration (CI)
+- Docker registry
+- Github Actions
 
 ### [Docker](https://github.com/oss-workshop/grace-hopper-example/commit/40d1e13390f9dc9c0a8e29a7c207a2af4a19cc99)
 - Github Container Registry
@@ -33,14 +34,16 @@
 - Used to enforce testing protocols
 
 ### [Bots](https://github.com/organizations/oss-workshop/settings/installations)
+- [CLA or DCO](https://opensource.com/article/18/3/cla-vs-dco-whats-difference)
+    - Contributors must sign agreement allowing project to use their contributions
+    - Bot enforces that agreement signed for each PR
 - Stale Bot
      - Deal with old/abandoned PRs
 - Linter
-    - Enforces code formatting
+    - Enforces code formatting for each PR
 - Semantic Pull Requests
+    - PR titles must have detailed info
     - Easily filter commits for CHANGELOG.md
-- DCO Bot
-    - Enforce that DCO is signed
 
 
 # Maintenance
@@ -52,9 +55,5 @@
 
 ### Testing
 - Create robust unit/e2e tests
-    - Will improve quality of contributions
-    - Ensure that other users' changes meet necessary standards
-
-### Contribution
-- Require certain % code coverage from contributors
-- Must provide unit/e2e tests
+    - Avoid bugs
+    - Ensure that contributors' changes meet standards (pass your existing test framework)

@@ -5,7 +5,7 @@ This repository prints out a simple message to the user. Right now, a default me
 The items listed here are proposed items for the Grace Hopper Example project and are subject to change. 
 
 - [Roadmap](#roadmap)
-      - [Custom Message](#custom-message)
+  - [Custom Message](#custom-message)
 
 ## Custom Message
 
