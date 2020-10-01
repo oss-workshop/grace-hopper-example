@@ -41,15 +41,17 @@
     - PR titles must have detailed info
     - Easily filter commits for CHANGELOG.md
 
+### Test Framework
+- Create robust unit/e2e tests
+    - Avoid bugs
+    - Ensure that contributors' changes pass existing tests
+- Require contributors to test their changes
+
 
 # Maintenance
+
 ### Daily Stand-Up Meeting:
 - Necessary to regularly review new issues/PRs
     - Review OSS issues or PRs opened in the last working day, so we do not miss anything.
     - Review owned issues, maybe reassign or disown.
     - Review open PRs, so we agree that it should be done or do not forget about them.
-
-### Test Framework
-- Create robust unit/e2e tests
-    - Avoid bugs
-    - Ensure that contributors' changes meet standards (pass your existing test framework)
