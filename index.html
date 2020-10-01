@@ -239,15 +239,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#cla-or-dco" class="md-nav__link">
-    CLA or DCO
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#docker" class="md-nav__link">
-    Docker
+  <a href="#continuous-integration-ci" class="md-nav__link">
+    Continuous Integration (CI)
   </a>
   
 </li>
@@ -262,6 +255,13 @@
           <li class="md-nav__item">
   <a href="#bots" class="md-nav__link">
     Bots
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#test-framework" class="md-nav__link">
+    Test Framework
   </a>
   
 </li>
@@ -360,15 +360,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#cla-or-dco" class="md-nav__link">
-    CLA or DCO
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#docker" class="md-nav__link">
-    Docker
+  <a href="#continuous-integration-ci" class="md-nav__link">
+    Continuous Integration (CI)
   </a>
   
 </li>
@@ -383,6 +376,13 @@
           <li class="md-nav__item">
   <a href="#bots" class="md-nav__link">
     Bots
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#test-framework" class="md-nav__link">
+    Test Framework
   </a>
   
 </li>
@@ -414,7 +414,7 @@
 <h2 id="initial-set-upbootstrapping">Initial Set-Up/Bootstrapping:</h2>
 <h3 id="documentation">Documentation</h3>
 <ul>
-<li>Readme<ul>
+<li><a href="https://github.com/oss-workshop/grace-hopper-example/blob/master/README.md">Readme</a><ul>
 <li>Provides information/instructions about project</li>
 </ul>
 </li>
@@ -439,16 +439,15 @@
 </ul>
 </li>
 <li><a href="https://choosealicense.com/">License</a></li>
-<li>Documentation Structure</li>
+<li><a href="https://www.mkdocs.org/#adding-pages">MkDocs/Markdown</a><ul>
+<li>Static site generator for documentation</li>
 </ul>
-<h3 id="cla-or-dco"><a href="https://opensource.com/article/18/3/cla-vs-dco-whats-difference">CLA or DCO</a></h3>
-<ul>
-<li>Contributors must sign agreement allowing project to use their contributions</li>
+</li>
 </ul>
-<h3 id="docker"><a href="https://github.com/oss-workshop/grace-hopper-example/commit/40d1e13390f9dc9c0a8e29a7c207a2af4a19cc99">Docker</a></h3>
+<h3 id="continuous-integration-ci"><a href="https://github.com/oss-workshop/grace-hopper-example/commit/40d1e13390f9dc9c0a8e29a7c207a2af4a19cc99">Continuous Integration (CI)</a></h3>
 <ul>
-<li>Github Container Registry</li>
-<li>Github action to create image for each release</li>
+<li>Docker registry</li>
+<li>Github Actions</li>
 </ul>
 <h3 id="code-coverage"><a href="https://github.com/oss-workshop/grace-hopper-example/actions?query=workflow%3A%22Code+Coverage+Workflow%22">Code Coverage</a></h3>
 <ul>
@@ -457,22 +456,33 @@
 </ul>
 <h3 id="bots"><a href="https://github.com/organizations/oss-workshop/settings/installations">Bots</a></h3>
 <ul>
+<li><a href="https://opensource.com/article/18/3/cla-vs-dco-whats-difference">CLA or DCO</a><ul>
+<li>Contributors must sign agreement allowing project to use their contributions</li>
+<li>Bot enforces that agreement signed for each PR</li>
+</ul>
+</li>
 <li>Stale Bot<ul>
 <li>Deal with old/abandoned PRs</li>
 </ul>
 </li>
 <li>Linter<ul>
-<li>Enforces code formatting</li>
+<li>Enforces code formatting for each PR</li>
 </ul>
 </li>
 <li>Semantic Pull Requests<ul>
+<li>PR titles must have detailed info</li>
 <li>Easily filter commits for CHANGELOG.md</li>
 </ul>
 </li>
-<li>DCO Bot<ul>
-<li>Enforce that DCO is signed</li>
+</ul>
+<h3 id="test-framework">Test Framework</h3>
+<ul>
+<li>Create robust unit/e2e tests<ul>
+<li>Avoid bugs</li>
+<li>Ensure that contributors' changes pass existing tests</li>
 </ul>
 </li>
+<li>Require contributors to test their changes</li>
 </ul>
 <h1 id="maintenance">Maintenance</h1>
 <h3 id="daily-stand-up-meeting">Daily Stand-Up Meeting:</h3>
@@ -483,19 +493,6 @@
 <li>Review open PRs, so we agree that it should be done or do not forget about them.</li>
 </ul>
 </li>
-</ul>
-<h3 id="testing">Testing</h3>
-<ul>
-<li>Create robust unit/e2e tests<ul>
-<li>Will improve quality of contributions</li>
-<li>Ensure that other users' changes meet necessary standards</li>
-</ul>
-</li>
-</ul>
-<h3 id="contribution">Contribution</h3>
-<ul>
-<li>Require certain % code coverage from contributors</li>
-<li>Must provide unit/e2e tests</li>
 </ul>
                 
               
