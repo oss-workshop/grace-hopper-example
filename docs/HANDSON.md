@@ -5,7 +5,7 @@ This hands-on activity is based on the daily stand-up process. We will:
 - Review open issues
 - Review open Pull Requests
 
-Please refer back to our [RoadMap](https://github.com/oss-workshop/grace-hopper-example/blob/master/docs/ROADMAP.md) when deciding whether an issue or PR is relevant to our project.
+Please refer back to our [Roadmap](https://github.com/oss-workshop/grace-hopper-example/blob/master/docs/ROADMAP.md) when deciding whether an issue or PR is relevant to our project.
 
 For the exercises, please enter your answers [here in Slido](https://app.sli.do/event/6ah5rwkh). We will put the Event Code in the chat. Do NOT modify this Github repository directly!
 

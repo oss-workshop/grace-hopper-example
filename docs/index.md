@@ -5,7 +5,7 @@
 ## Initial Set-Up/Bootstrapping:
 
 ### Documentation
-- Readme
+- [Readme](https://github.com/oss-workshop/grace-hopper-example/blob/master/README.md)
     - Provides information/instructions about project
 - [Owners](https://github.com/oss-workshop/grace-hopper-example/blob/master/OWNERS)
     - Roles that certain users have in repository
@@ -18,28 +18,28 @@
 - [Security](https://github.com/oss-workshop/grace-hopper-example/blob/master/SECURITY.md)
     - Allow users to report security issues without compromising project
 - [License](https://choosealicense.com/)
-- Documentation Structure
+- [MkDocs/Markdown](https://www.mkdocs.org/#adding-pages)
+    - Static site generator for documentation
 
-###[CLA or DCO](https://opensource.com/article/18/3/cla-vs-dco-whats-difference)
-- Contributors must sign agreement allowing project to use their contributions
+### [Continuous Integration (CI)](https://github.com/oss-workshop/grace-hopper-example/commit/40d1e13390f9dc9c0a8e29a7c207a2af4a19cc99)
+- Docker registry
+- Github Actions
 
-###[Docker](https://github.com/oss-workshop/grace-hopper-example/commit/40d1e13390f9dc9c0a8e29a7c207a2af4a19cc99)
-- Github Container Registry
-- Github action to create image for each release
-
-###[Code Coverage](https://github.com/oss-workshop/grace-hopper-example/actions?query=workflow%3A%22Code+Coverage+Workflow%22)
+### [Code Coverage](https://github.com/oss-workshop/grace-hopper-example/actions?query=workflow%3A%22Code+Coverage+Workflow%22)
 - Determines number of lines in code validated by existing tests
 - Used to enforce testing protocols
 
-###[Bots](https://github.com/organizations/oss-workshop/settings/installations)
+### [Bots](https://github.com/organizations/oss-workshop/settings/installations)
+- [CLA or DCO](https://opensource.com/article/18/3/cla-vs-dco-whats-difference)
+    - Contributors must sign agreement allowing project to use their contributions
+    - Bot enforces that agreement signed for each PR
 - Stale Bot
      - Deal with old/abandoned PRs
 - Linter
-    - Enforces code formatting
+    - Enforces code formatting for each PR
 - Semantic Pull Requests
+    - PR titles must have detailed info
     - Easily filter commits for CHANGELOG.md
-- DCO Bot
-    - Enforce that DCO is signed
 
 
 # Maintenance
@@ -49,11 +49,7 @@
     - Review owned issues, maybe reassign or disown.
     - Review open PRs, so we agree that it should be done or do not forget about them.
 
-### Testing
+### Test Framework
 - Create robust unit/e2e tests
-    - Will improve quality of contributions
-    - Ensure that other users' changes meet necessary standards
-
-### Contribution
-- Require certain % code coverage from contributors
-- Must provide unit/e2e tests
+    - Avoid bugs
+    - Ensure that contributors' changes meet standards (pass your existing test framework)

@@ -21,13 +21,9 @@
 - [MkDocs/Markdown](https://www.mkdocs.org/#adding-pages)
     - Static site generator for documentation
 
-### Continuous Integration (CI)
+### [Continuous Integration (CI)](https://github.com/oss-workshop/grace-hopper-example/commit/40d1e13390f9dc9c0a8e29a7c207a2af4a19cc99)
 - Docker registry
 - Github Actions
-
-### [Docker](https://github.com/oss-workshop/grace-hopper-example/commit/40d1e13390f9dc9c0a8e29a7c207a2af4a19cc99)
-- Github Container Registry
-- Github action to create image for each release
 
 ### [Code Coverage](https://github.com/oss-workshop/grace-hopper-example/actions?query=workflow%3A%22Code+Coverage+Workflow%22)
 - Determines number of lines in code validated by existing tests
